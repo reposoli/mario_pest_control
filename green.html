@@ -2,31 +2,103 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Mario Pest Control</title>
+        <title></title>
         <link href="green.css" rel="stylesheet"/>
    </head>
    <body>
+    
+        <div id="baddies">
+           
+     
+    
+        <table class="table"></table>
+            <thead>
+                <th><h1>Mario Pest Control</h1>
+                </th>
+            </thead>
 
-        <div id = "baddiesBox"> 
-            <h1 id = "mario"></h1>
-            <h2> How Many Baddies Did You Catch?</h2>
-            <ul id = "list">
-                <li class="list1">Cost per Goomba: 5 Coins</li>
-                    Goombas Caught: <input type="number" id="num1"/><br>       
-                <li class="list2">Cost per Bob-omb: 7 Coins</li>
-                    Bob-ombs Caught: <input type="number" id="num2"/><br>
-                <li class="list3">Cost per CheepCheep: 11 Coins</li>
-                    CheepCheeps Caught: <input type="number" id="num3"/> 
-            </ul>
+            <tbody>
+                
+                <tr>
+                    <td>  
+                        <span class="column1">
+                        <div class="sidebar1"><span><h3>Goombas</h3>Price: 5 Coins each</span>
+                            <br><br><img src= "https://user-images.githubusercontent.com/72266712/107159597-2b0cc980-695f-11eb-83a4-7a0888909e83.jpeg">
+                        </div></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>       
+                        <span class="column2">
+                        <h3>Bob-ombs</h3>Price: 7 Coins each
+                            <br><br><img src= "https://user-images.githubusercontent.com/72266712/107159599-3102aa80-695f-11eb-99bf-7abe9771b95b.jpeg">
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>          
+                        <span class ="column3">
+                        <div class="sidebar2"><h3>CheepCheeps</h3>Price: 11 Coins each
+                            <br><br><img src= "https://user-images.githubusercontent.com/72266712/107159604-37912200-695f-11eb-9c0f-0762313ac70b.jpeg">
+                        </div></span>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>        
+                        <span class="column1">
+                        <div class="sidebar1"><h4>Goombas Caught:<input type="number" id="num1"/></h4>  
+                        </div></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>          
+                        <span class="column2">
+                        <h4>Bob-ombs Caught:<input type="number" id="num2"/></h4>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>          
+                        <span class ="column3">
+                        <div class="sidebar2"><h4>CheepCheeps Caught:<input type="number" id="num3"/></h4>
+                        </div></span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <h2>Did You Enter How Many Baddies You Caught?<div id = "Input">
             <button id="button">Press Here for Cost Total</button> 
-        </div>
-        <div id = "Input">
-            <span class="total">Total Cost: <span id="result"></span>
-        </div>
+            <div id="total">Total Cost: $
+                <cost id="result"/></span>
+                </div>
+        </div></h2>
 
-        <footer>
-            <p><a href = "#mario.html">mariospestcontrol.com</a></p>
-        </footer>
+    </div>
+
+
+    <footer id = "footer">
+        <div id="left"> 
+            Mario Pest Control Inc.<br> 
+            123 Princess Lane, Suite 456<br>
+            Nintendo, CA 12345<br>
+            <br>
+            
+        </div>
+        
+        
+        <div class="signature">
+            <a href = "#green.html">mariospestcontrol.com</a><br>
+            contactmario@mariopestcontrol.com<br>
+            
+            &copy; 2020 - Stephanie Olivares, Mark Olivo, Jared Martin<br>
+        </div>
+    </footer>
+    
+        
+
+       
     <script src="green.js"></script>
 </body>
 </html>

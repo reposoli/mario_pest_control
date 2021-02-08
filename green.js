@@ -1,11 +1,9 @@
-var baddiesBox = document.getElementById("baddiesBox")
-baddiesBox.classList.add("baddiesBox");
 
-var list = document.getElementById("list")
-list.classList.add("list")
 
-var mario = document.getElementById("mario")
-mario.textContent = "Mario Pest Control"
+var baddies = document.getElementById("baddies")
+baddies.classList.add("baddies");
+
+
 
 const add = document.getElementById("button")
  add.onclick = function (){
